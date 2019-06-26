@@ -1,0 +1,25 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+div {
+    border: 2px solod black;
+    background-color: aqua;
+    width: 10vw;
+    height: 10vh;
+    animation-name:  function;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    position: absolute;
+    
+    
+}
+@keyframes function{
+    0% {background-color: red; left: 0px; top: 0px;} 
+    25% {background-color: green; left: 90%; top: 0px;}
+    50% {background-color: yellow; left: 90%; top: 90%;}
+    75% {background-color: chocolate; left: 0px; top: 90%;}
+    100% {background-color: blue; left: 0px; top: 0px;}
+
+
+}
