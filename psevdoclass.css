@@ -1,0 +1,121 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+
+a:link{
+	color:green;
+}
+a:visited{
+	color:red;
+}
+a:hover{
+	color: lime;
+}
+a:active{
+	color: blue;
+}
+input[type='checkbox']:checked{
+	height: 50px;
+	width: 50px;
+	
+}
+input[type="text"]:disabled{
+	background: yellow;
+}
+
+input[type="text"]:enabled{
+	background: aqua;
+}
+input[type="text"]:focus{
+	background: lime;
+}
+
+input[type="text"]:active{
+	background: maroon;
+}
+
+input[type="email"]:disabled{
+	background: yellow;
+}
+
+
+div p {
+	color: red;
+}
+
+div + p {
+	color: blue;
+}
+
+div ~ p {
+	color: green;
+	font-size: 30px;
+}
+
+div :nth-child(2) {
+	color: aqua;
+}
+  
+div {
+	font-size: 30px;
+	font-family: 'Times New Roman', Times, serif;
+	color: rgb(94, 6, 97);
+	margin-bottom: 30px;
+}
+div:hover p{
+	display: block;
+}
+
+div p {
+display: none;
+background-color: yellow;
+padding: 10px;
+}
+
+p::first-letter {
+	color: rgb(10, 180, 101);
+}
+p::first-line {
+	color: maroon;
+}
+
+.div1 {
+	width: 100px;
+	height: 100px;
+	border: 2px solid blak;
+	background-color: brown;
+	position: relative;
+	margin-left: 50px;
+	margin-top: 100px;
+	display: inline-block; 
+}
+
+.div2 {
+	width: 100px;
+	height: 100px;
+	border: 2px solid blak;
+	background-color: rgb(75, 42, 165);
+	position: fixed;
+	margin-left: 200px;
+	margin-top: 150px;
+}
+.div3 {
+	width: 100px;
+	height: 100px;
+	border: 2px solid blak;
+	background-color: rgb(42, 165, 48);
+	position: absolute;
+	margin-left: 220px;
+	margin-top: 170px;
+}
+.div4 {
+	width: 100px;
+	height: 100px;
+	border: 2px solid blak;
+	background-color: rgb(163, 165, 42);
+	position: sticky;
+	margin-left: 300px;
+	margin-top: 250px;
+}
